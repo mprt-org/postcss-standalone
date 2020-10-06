@@ -1,0 +1,19 @@
+{
+  "name": "@mprt/postcss-standalone",
+  "version": "0.0.1",
+  "description": "Standalone PostCSS version with some plugins included",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amareis",
+  "license": "MIT",
+  "repository": "https://github.com/mprt-org/postcss-standalone.git",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "postcss": "^8.1.1",
+    "postcss-nested": "^5.0.1",
+    "rollup": "^2.28.2",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
+}
