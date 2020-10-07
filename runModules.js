@@ -19,7 +19,7 @@ const raw = `
 
 async function run(css) {
     const json = {}
-    const res = (await p([n, m({json})]).process(css, {from: '/1.css'})).css
+    const res = (await p([n, m({json})]).process(css, {from: '/css/1.css'})).css
     console.log(json)
     return res
 }

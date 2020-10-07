@@ -31,7 +31,7 @@ function camelize(str) {
 const plugin = ({json={}} = {}) => ({
   postcssPlugin: 'browser-modules',
   OnceExit(root) {
-    const fn = root.source.input.from.replace('/', '_').replace('.', '_')
+    const fn = root.source.input.from.replace(/[\/.]/g, '_')
 
     function genName(name) {
       if (!json[name])
