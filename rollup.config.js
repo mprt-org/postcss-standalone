@@ -24,4 +24,12 @@ export default [{
         name: 'postcssNested'
     },
     plugins
+}, {
+    input: 'src/plugins/modules.js',
+    output: {
+        file: 'plugins/modules.js',
+        format: 'umd',
+        name: 'postcssBrowserModules'
+    },
+    plugins
 }]
