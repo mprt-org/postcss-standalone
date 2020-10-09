@@ -5,15 +5,26 @@ __metadata:
   version: 4
   cacheKey: 7
 
+"@mprt/postcss-modules-browser@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@mprt/postcss-modules-browser@npm:0.0.2"
+  dependencies:
+    postcss-selector-parser: ^6.0.4
+  peerDependencies:
+    postcss: ^8.1.0
+  checksum: 9b445c0a29403e00eb738d41f731876cc31ed8705f8cde5531807626e134a8eb99a659a5f4c3aa850b58f6a138c96d5f84d1a74572906ed42c2e021451a417b8
+  languageName: node
+  linkType: hard
+
 "@mprt/postcss-standalone@workspace:.":
   version: 0.0.0-use.local
   resolution: "@mprt/postcss-standalone@workspace:."
   dependencies:
+    "@mprt/postcss-modules-browser": ^0.0.2
     "@rollup/plugin-commonjs": ^15.1.0
     "@rollup/plugin-node-resolve": ^9.0.0
     postcss: ^8.1.1
     postcss-nested: ^5.0.1
-    postcss-selector-parser: ^6.0.4
     rollup: ^2.28.2
     rollup-plugin-node-polyfills: ^0.2.1
   languageName: unknown

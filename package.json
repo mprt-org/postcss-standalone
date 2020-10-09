@@ -1,6 +1,6 @@
 {
   "name": "@mprt/postcss-standalone",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Standalone PostCSS version with some plugins included",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,11 @@
   "license": "MIT",
   "repository": "https://github.com/mprt-org/postcss-standalone.git",
   "devDependencies": {
+    "@mprt/postcss-modules-browser": "^0.0.2",
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "postcss": "^8.1.1",
     "postcss-nested": "^5.0.1",
-    "postcss-selector-parser": "^6.0.4",
     "rollup": "^2.28.2",
     "rollup-plugin-node-polyfills": "^0.2.1"
   }
